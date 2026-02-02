@@ -36,6 +36,18 @@ package com.empresa.gestion.service;
             System.out.println("Empleado no encontrado");
 
          }
+         public void consultarEmpleado(int id){
+            for(Empleado e: empleados){
+                if(e.getId()==id){
+                     System.out.println(e.resumen());
+
+                return;
+                }
+            }
+               System.out.println("empleado no encontrado");
+
     }
+         }
+    
 
 
