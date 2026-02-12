@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/java_gip346c
-    username: 
-    password: 
+    url: jdbc:postgresql://localhost:5432/universidad
+    username: postgres
+    password: 123456
   jpa:
     hibernate:
       ddl-auto: update
@@ -13,3 +13,7 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
 server:
   port: 8080
+error:
+ include-message: always
+
+  
